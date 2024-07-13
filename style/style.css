@@ -1,0 +1,64 @@
+
+
+header{
+  background-color: orange;
+  padding: 20px 0px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0px auto;
+
+
+}
+
+nav a{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+
+.manus > a{
+  margin: 0px 40px;
+
+}
+
+.manus > a:hover{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.active{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.active:hover{
+  background-color: rgb(2, 172, 2);
+  color: white;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  border: 2px solid green;
+  padding: 50px;
+  border-radius: 16px;
+}
